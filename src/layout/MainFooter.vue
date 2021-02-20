@@ -4,15 +4,8 @@
     :class="{ [`footer-${type}`]: type }"
     :data-background-color="backgroundColor"
   >
-    <div class="container">
-      <nav>
-        <ul align="center">
-          <li>
-            By  19IT092 - Dev Patel  And  19IT133 - Poojan Shah
-          </li>
-        </ul>
-      </nav>
-      
+    <div class="container" align="center">
+      Author : 19IT133 - Poojan Shah and 19IT092 - Dev Patel
     </div>
   </footer>
 </template>
