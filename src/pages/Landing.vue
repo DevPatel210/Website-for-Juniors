@@ -40,10 +40,10 @@
         <div class="section-story-overview">
           <div class="row">
             <div class="col-md-6">
-              <div
+              <!-- <div
                 class="image-container image-left"
                 style="background-image: url('img/login.jpg')"
-              >
+              > -->
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-primary">
                   "Over the span of the satellite record, Arctic sea ice has
@@ -53,7 +53,7 @@
                   <br />
                   <small>-NOAA</small>
                 </p>
-              </div>
+              <!-- </div> -->
               <!-- Second image on the left side of the article -->
               <div
                 class="image-container"
