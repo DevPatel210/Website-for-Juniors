@@ -17,12 +17,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Who we are?</h2>
+            <h2 class="title">Our Mission</h2>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              Juniors can have difficulty in having sound and letter co-relationship especially when they just
+              get started with it. In the classroom teaching students generally get it with the flow of
+              whole class but when checked individualy there is some space for improvements. We have tried to 
+              provide a solution to this problem with this website.
             </h5>
           </div>
         </div>
@@ -39,8 +39,7 @@
             <div class="col-md-5">
               
               <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
+                
               </h3>
               <p>
                 The Arctic Ocean freezes every winter and much of the sea-ice
@@ -59,15 +58,6 @@
                 But over the more than 30 years of satellite records, scientists
                 have observed a clear pattern of decline, decade-by-decade.
               </p>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
             </div>
           </div>
         </div>
@@ -77,58 +67,30 @@
       <div class="container">
         <h2 class="title">Here is our team</h2>
         <div class="team">
-          <div class="row">
-            <div class="col-md-4">
+          <div >
+            <div>
               <div class="team-player">
                 <img
                   src="img/avatar.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
+                  align = "left"
                 />
-                <h4 class="title">Romina Hadid</h4>
-                <p class="category text-primary">Model</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
+                <h4 class="title" align = "left">Poojan Shah</h4>
+                <p align = "left" class="category text-primary">19IT133</p>
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div>
               <div class="team-player">
                 <img
                   src="img/eva.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
+                  align = "right"
                 />
-                <h4 class="title">Eva Jenner</h4>
-                <p class="category text-primary">Fashion</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-google-plus"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+                <h4 align = "right" class="title">Dev Patel</h4>
+                <p align = "right" class="category text-primary">19IT092</p>
               </div>
             </div>
           </div>

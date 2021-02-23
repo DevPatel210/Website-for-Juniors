@@ -7,8 +7,8 @@
     menu-classes="ml-auto"
   >
     <template>
-      <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Website for Juniors
+      <router-link v-popover:popover1 class="navbar-brand" to="/Landing">
+        About Us
       </router-link>
       <el-popover
         ref="popover1"
@@ -18,25 +18,15 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
+          Designed by Dev Patel and Poojan Shah
         </div>
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
-        >
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>About Us</p>
-        </a>
-      </li>
       
       <drop-down
               tag="li"
-              title="Examples"
+              title="Menu"
               icon="now-ui-icons design_image"
               class="nav-item"
       >
