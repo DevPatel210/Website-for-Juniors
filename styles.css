@@ -252,8 +252,6 @@ nav ul li a{
 }
 .creator-col p{
     font-size: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
 }
 .creator-class{
     display: flex;
@@ -368,6 +366,7 @@ hr{
 @media only screen and (max-width: 770px){
     /* Hero Image */
     #header{
+        height:90vh;
         background-image: none;
     }
     .container{
@@ -379,7 +378,11 @@ hr{
         width: 70px;
     }
     .header-text{
-        margin-top: 180px;
+        margin-top: 100px;
+    }
+    .header-text p{
+        word-spacing: 3px;
+        line-height: 23px;
     }
     h1{
         font-size: 25px;
@@ -393,15 +396,16 @@ hr{
     }
 
     /* About */
-    .about-left-call img {
-        
-    }
     .about-left-call, .about-right-call{
         flex-basis: 100%;
     }
     .about-text{
         margin: 50px 50px 0 ;
         display: inline-block;
+    }
+    .about-text p{
+        word-spacing: 3px;
+        line-height: 23px;
     }
     .about-text h2{
         font-size: 18px;
@@ -414,6 +418,10 @@ hr{
     }
 
     /* features */
+    .feature-row p{
+        word-spacing: 3px;
+        line-height: 23px;
+    }
     .feature-col{
         flex-basis: 100%;
         margin-bottom: 20px;
@@ -423,7 +431,7 @@ hr{
     }
     .course-right-col{
         flex-basis: 100%;
-        margin-top: 70px;
+        margin-top: 20px;
     }
 
     /* Contact */
@@ -453,7 +461,19 @@ hr{
         width: 70px;
     }
 
+    /* Courses */
+    #courses{
+        padding: 40px 0;
+    }
+    #courses p{
+        word-spacing: 3px;
+        line-height: 23px;
+    }
     /* Creators */
+    .creator-class p{
+        word-spacing: 3px;
+        line-height: 23px;
+    }
     .creator-col{
         flex-basis: 100%;
     }
