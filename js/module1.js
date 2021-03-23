@@ -183,8 +183,11 @@ let voices = [];
                     $('#next').hide();
                     $('#prev').hide();
                     
-                    var restartButton = $('<div class="button"><a href="index.html">Restart</a></div>')
+                    var restartButton = $('<div class="button"><a href="module1.html">Restart</a></div>')
                     quizSpace.append(restartButton);
+
+                    var exitButton = $('<div class="button"><a href="index.html">Exit</a></div>')
+                    quizSpace.append(exitButton);
                 }
         });
     }
