@@ -1,6 +1,6 @@
 const synth = window.speechSynthesis;
 const voiceSelect = document.getElementById('voice-select');
-// $('#voice-select').hide();
+$('#voice-select').hide();
 let voices = [];
 
   const getVoices = () => {
