@@ -135,11 +135,11 @@ let voices = [];
   
   function radioButtons(index) 
     {
-        var radioItems = $('<ul>');
+        var radioItems = $('<ul>',{id: 'radio'});
         var item;
         var input = '';
         for (var i = 0; i < allQuestions[index].options.length; i++) {
-          item = $('<li>');
+          item = $('<li>',{id:'radio_li'});
           input = '<input type="radio" name="answer" value=' + i + ' />';
           input += allQuestions[index].options[i];
           item.append(input);
