@@ -22,10 +22,6 @@ let voices = [];
     synth.onvoiceschanged = getVoices;
   }
 
-  
-  
-
-
   var allQuestions = [{
     image:'images/chocolate.jpg',
     options: ["Chain", "Cheetah", "Chocolate", "Chips"],
