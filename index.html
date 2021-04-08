@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="manifest" href="manifest.json">
         <link rel="apple-touch-icon" href="images/logo_file.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Website For Juniors</title>
     </head>
     
@@ -34,18 +35,19 @@
 
     <!-- Nav bar -->
     <nav id="sideNav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="index.html">Modules</a>
-                <ul>
-                    <li><a href="module1.html">Module 1</a></li>
-                    <li><a href="module2.html">Module 2</a></li>
-                    <li><a href="module3.html">Module 3</a></li>
-                    <li><a href="#">Module 4</a></li>
-                </ul>
-            </li>
-        </ul>
+        <!-- <ul> -->
+            <div><a href="index.html">Home</a></div>
+            <span><a class="dropbtn" onclick="myFunction()">Wordssster <i class="fa fa-caret-right"></i></a>
+            <span class="dropdown-content" id="myDropdown">
+                 <a href="module1_A.html" ><b>'ch'</b>words</a>
+                <a href="module1_B.html"><b>'th' </b>words</a>
+                <a href="module1_C.html"><b>'ing' </b>words</a>
+            </span>
+        </span>
+            <div><a href="module2.html">Abcdgenics</a></div>
+            <div><a href="module3.html">Wonder Speak</a></div>
+        
+        <!-- </ul> -->
     </nav>
 
     <img src="images/menu.png" id="menu-btn">

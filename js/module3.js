@@ -1,3 +1,7 @@
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
 var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
 

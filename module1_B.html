@@ -1,14 +1,15 @@
 <html>
 	<head>
 		<title>Make Quiz Website</title>
-		<link rel="stylesheet" href="css/module3.css">
+		<link rel="stylesheet" href="css/module1.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<!-- Nav bar -->
-		<nav id="sideNav">
+		   <img src="images/menu.png" id="menu-btn">
+		   <nav id="sideNav">
 			<!-- <ul> -->
 				<div><a href="index.html">Home</a></div>
 				<span><a class="dropbtn" onclick="myFunction()">Wordssster <i class="fa fa-caret-right"></i></a>
@@ -23,19 +24,22 @@
 			
 			<!-- </ul> -->
 		</nav>
-		<img src="images/menu.png" id="menu-btn">
+
+	
+
 		<div id="container">
             <h1>Quiz Website Using JavaScript</h1>
    			<br/>
-			
+			   <div class="speakButton">Listen It</div>
+			   <br>
   			<div id="quiz"></div>
-			<div class="speakButton">Speak</div>
-			<p class="answer"></p>
+			  
     		<div class="button" id="next"><a href="#">Next</a></div>
     		<div class="button" id="prev"><a href="#">Prev</a></div>
     	</div>
+		<select id="voice-select"><select>
+		
         <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
-		<script src="js/module3.js"></script>
 		<script>
 			var menuBtn = document.getElementById("menu-btn");
 			var sideNav = document.getElementById("sideNav");
@@ -49,5 +53,6 @@
 				}
 			}
 		</script>
+		<script src="js/module1_B.js"></script>
 	</body>
 </html>
