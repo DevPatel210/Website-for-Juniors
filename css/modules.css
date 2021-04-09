@@ -276,8 +276,12 @@ text-decoration: none;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.creator-col a{
+    text-decoration: none;
+}
 .creator-col{
-    flex-basis: 40%;
+    text-align: center;
+    flex-basis: 20%;
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -286,19 +290,10 @@ text-decoration: none;
 }
 .creator-col p{
     font-size: 15px;
+    margin-top: 20px;
 }
-.creator-class{
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
-.creator-class img{
-    width: 100px;
-    margin: 10px 35px;
-    border-radius: 15px;
-}
-.creator-info p{
-    padding-top: 20px;
+.creator-col h3{
+    color: black;
 }
 .creator-col:hover{
     transform: translateY(-10px);
