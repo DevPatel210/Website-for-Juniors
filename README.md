@@ -36,7 +36,7 @@ Have a look at our <a href="https://devpatel210.github.io/Website-for-Juniors/">
   
 * **Wonder Speak** - The pronuncition of kids is tested in this module. The quiz contains different objects and the kid have to pronounce it.
   
-  <img alt="Wonder Speak image" Wonder Speak image" src="./images/Readme Images/speak.png" width="500">
+  <img alt="Wonder Speak image" title="Wonder Speak image" src="./images/Readme Images/speak.png" width="500">
 
 
 ## Built with
